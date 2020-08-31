@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Inconsolata';
+    font-size: 25px;
+    color: #494e74;
+}
+/* Navbar's style */
+.navbar {
+    background-color: #2a2522 !important;
+}
+.navbar li a {
+    color: white !important;
+}
+.navbar li a:hover {
+    color: black !important;
+}
+/* Home's style */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+}
+.carousel-caption h1 {
+    font-family: 'Inconsolata';
+    font-size: 200%;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 15iz #000;
+}
+.carousel-caption h3 {
+    font-family: 'Inconsolata';
+    font-size: 100%;
+    text-shadow: 2px 2px 10px #000;
+}
+.btn-outline-light {
+    margin-top: 5%;
+}
+
+.btn-outline-light:hover {
+    background-color: rgb(161, 155, 248);
+    border: 1px solid white;
+}
+/* About me style */
+.welcome hr {
+    border-top: 2px solid rgba(27, 97, 143, 0.6);
+    width: 10%;
+    margin-top: 10px;
+}
+.col-12 h1 {
+    font-family: 'Inconsolata';
+    font-size: 150%;
+    margin-top: 2%;
+    color: #494e74;
+    text-transform: uppercase;
+}
+.fa-handshake, .fa-globe, .fa-lightbulb, .fa-rocket {
+    color:#494e74;
+    font-size: 2em;
+    margin: 1rem;
+}
+.col-md-12, .col-lg-6 h2{
+    margin-top: 2rem;
+    font-size: 28px;
+}
+/* Project's style */
+.projects-section {
+    background-color: rgba(218, 195, 177, 0.4);
+    text-align: center;
+}
+.project-title {
+    text-align: center;
+    color:#494e74;
+}
+.project-title:hover {
+    color: #DB6853;
+    transition: 0.3s ease-out;
+}
+/* Blog's style */
+.blog-title{
+    font-family: 'Inconsolata';
+    font-size: 20pt;
+    line-height: 22pt;
+    transition: color 0.3s ease-out;
+    font-weight: 500;
+    color: #494e74; 
+    margin-top: 5%;
+    text-transform: capitalize;
+}
+.blog-title:hover {
+    color: #D64E48;
+}
+.date {
+    font-family: 'Open sans';
+    font-size: 10pt;
+    margin: 5% 0 0 0;
+    text-transform: uppercase;
+}
+.blog-body hr {
+    border-top: 2px solid rgba(27, 97, 143, 0.6);
+    width: 100%;
+    margin-top: 10px;
+} 
+.blog-description {
+    font-family: 'Inconsolata';
+    font-size: 13pt;
+    margin-top: 5%;
+}
+/* Contact's style */
+.contacts-section {
+    background-color: rgba(218, 195, 177, 0.4);
+}
+#contacts hr {
+    border-top: 2px solid rgba(27, 97, 143, 0.6);
+    width: 10%;
+    margin-top: 10px;
+}
+.social a {
+    font-size: 3em;
+    padding: 3rem;
+    margin: 2rem;
+}
+.fa-facebook {
+    color: #3b5998;
+}
+.fa-github {
+    color: #00405d;
+}
+.fa-instagram {
+    color: #3f729b;
+}
+.fa-linkedin {
+    color:#0077b5;
+}
+footer {
+    background-color: #2a2522;
+    color: white;
+    font-size: 26px;
+    font-weight: 200;
+    font-family: 'Inconsolata';
+    text-transform: uppercase;
+}
+.highlight {
+    color: #D66634;
+}
+.footnote p {
+    margin-top: 1rem;
+}
+/* Media Queries */
+@media (max-width: 992px) {
+    .carousel-caption {
+        top: 20%;
+    }
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+    .carousel-caption h3 {
+        font-size: 160%;
+    }
+    .btn-primary {
+        font-size: 120%;
+    }
+}    
+@media (max-width: 768px) {
+    .carousel-caption {
+		top: 20%;
+	}
+	.carousel-caption h1{
+		font-size: 220%;
+	}
+	.carousel-caption h3{		
+		font-size: 140%;
+		padding-bottom: 0.2rem;
+	}
+	.carousel-caption .btn{		
+		font-size: 95%;
+		padding: 8px 14px;
+	}
+}
+@media (max-width: 576px) {
+    .carousel-caption {
+		top: 10%;
+	}
+	.carousel-caption h1{
+		font-size: 150%;
+	}
+	.carousel-caption h3{		
+		font-size: 110%;		
+	}
+	.carousel-caption .btn {		
+		font-size: 90%;
+		padding: 4px 8px;
+    }
+}
